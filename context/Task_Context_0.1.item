@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_9WRGUPJ_EeucMc4MYfbNmw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_GNxSgPKAEeucMc4MYfbNmw" comment="" name="ArchiveFile" prompt="ArchiveFile?" promptNeeded="false" type="id_String" value="&quot;C:/Users/User/Desktop/Task/Source/2009.zip&quot;"/>
+  <contextParameter xmi:id="_GNxSgfKAEeucMc4MYfbNmw" comment="" name="Extracted_Directory" prompt="Extracted_Directory?" promptNeeded="false" type="id_String" value="&quot;C:/Users/User/Desktop/Task/Source&quot;"/>
+  <contextParameter xmi:id="_e_SEUPKAEeucMc4MYfbNmw" comment="" name="Source_Directory" prompt="Source_Directory?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_jW1TYPKAEeucMc4MYfbNmw" comment="" name="Target_File_Path" prompt="Target_File_Path?" promptNeeded="false" type="id_String" value="&quot;C:/Users/User/Desktop/Task/Target&quot;"/>
+  <contextParameter xmi:id="_kaXVgPKXEeucMc4MYfbNmw" comment="" name="server" prompt="server?" promptNeeded="false" type="id_String" value="&quot;localhost&quot;"/>
+  <contextParameter xmi:id="_kaXVgfKXEeucMc4MYfbNmw" comment="" name="port" prompt="port?" promptNeeded="false" type="id_String" value="27017"/>
+  <contextParameter xmi:id="_kaXVgvKXEeucMc4MYfbNmw" comment="" name="Database" prompt="Database?" promptNeeded="false" type="id_String" value="&quot;Test&quot;"/>
+  <contextParameter xmi:id="_kaXVg_KXEeucMc4MYfbNmw" comment="" name="collection_FactStore" prompt="collection_FactStore?" promptNeeded="false" type="id_String" value="&quot;FactStore&quot;"/>
+  <contextParameter xmi:id="_kaXVhPKXEeucMc4MYfbNmw" comment="" name="collection_DimProducts" prompt="collection_DimProducts?" promptNeeded="false" type="id_String" value="&quot;DimProducts&quot;"/>
+  <contextParameter xmi:id="_kaXVhfKXEeucMc4MYfbNmw" comment="" name="collection_DimStores" prompt="collection_DimStores?" promptNeeded="false" type="id_String" value="&quot;DimStores&quot;"/>
+  <contextParameter xmi:id="_kaXVhvKXEeucMc4MYfbNmw" comment="" name="collection_Hand_By_Category" prompt="collection_Hand_By_Category?" promptNeeded="false" type="id_String" value="&quot;Hand_By_Category&quot;"/>
+  <contextParameter xmi:id="_kaXVh_KXEeucMc4MYfbNmw" comment="" name="collection_Hand_By_Store" prompt="collection_Hand_By_Store?" promptNeeded="false" type="id_String" value="&quot;Hand_By_Store&quot;"/>
+  <contextParameter xmi:id="_kaXViPKXEeucMc4MYfbNmw" comment="" name="File_Hand_By_Category" prompt="File_Hand_By_Category?" promptNeeded="false" type="id_String" value="&quot;D:/Talend_Data_Integration/Softwares/TOS_BD-20180411_1414-V7.0.1/TOS_BD-20180411_1414-V7.0.1/workspace/out.csv&quot;"/>
+  <contextParameter xmi:id="_kaXVifKXEeucMc4MYfbNmw" comment="" name="File_Hand_By_Store" prompt="File_Hand_By_Store?" promptNeeded="false" type="id_String" value="&quot;D:/Talend_Data_Integration/Softwares/TOS_BD-20180411_1414-V7.0.1/TOS_BD-20180411_1414-V7.0.1/workspace/out1.csv&quot;"/>
+</talendfile:ContextType>

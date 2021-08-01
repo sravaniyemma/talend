@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_7iaHwPKaEeucMc4MYfbNmw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_Evka4PKbEeucMc4MYfbNmw" comment="" name="Oracle_Host" prompt="Oracle_Host?" promptNeeded="false" type="id_String" value="&quot;localhost&quot;"/>
+  <contextParameter xmi:id="_Evka4fKbEeucMc4MYfbNmw" comment="" name="Oracle_Port" prompt="Oracle_Port?" promptNeeded="false" type="id_String" value="&quot;1521&quot;"/>
+  <contextParameter xmi:id="_Evka4vKbEeucMc4MYfbNmw" comment="" name="Oracle_Database" prompt="Oracle_Database?" promptNeeded="false" type="id_String" value="&quot;xe&quot;"/>
+  <contextParameter xmi:id="_Evka4_KbEeucMc4MYfbNmw" comment="" name="Oracle_Username" prompt="Oracle_Username?" promptNeeded="false" type="id_String" value="&quot;nag&quot;"/>
+  <contextParameter xmi:id="_Evka5PKbEeucMc4MYfbNmw" comment="" name="Oracle_Password" prompt="Oracle_Password?" promptNeeded="false" type="id_Password" value="u7bQ+GqltQc="/>
+</talendfile:ContextType>

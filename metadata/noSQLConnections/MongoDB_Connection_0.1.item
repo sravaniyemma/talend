@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:TalendNoSQLMetadata="http://www.talend.org/nosql" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendNoSQLMetadata:NoSQLConnection xmi:id="_S8yrcPHTEeucMc4MYfbNmw" name="MongoDB_Connection" label="MongoDB_Connection" dataPackage="_M9zl4PISEeucMc4MYfbNmw" dbType="MONGODB">
+    <attributes xmi:id="_CltSAPIEEeucMc4MYfbNmw" key="DB_VERSION" value="MONGODB_3_5_X"/>
+    <attributes xmi:id="_CltSAfIEEeucMc4MYfbNmw" key="HOST" value="localhost"/>
+    <attributes xmi:id="_CltSAvIEEeucMc4MYfbNmw" key="PORT" value="27017"/>
+    <attributes xmi:id="_CltSA_IEEeucMc4MYfbNmw" key="DATABASE" value="Test"/>
+    <attributes xmi:id="_CltSBPIEEeucMc4MYfbNmw" key="REQUIRED_AUTHENTICATION" value="false"/>
+    <attributes xmi:id="_CltSBfIEEeucMc4MYfbNmw" key="USERNAME" value=""/>
+    <attributes xmi:id="_CltSBvIEEeucMc4MYfbNmw" key="PASSWORD" value=""/>
+    <attributes xmi:id="_CltSB_IEEeucMc4MYfbNmw" key="USE_REPLICA_SET" value="false"/>
+    <attributes xmi:id="_CltSCPIEEeucMc4MYfbNmw" key="REPLICA_SET" value="[]"/>
+  </TalendNoSQLMetadata:NoSQLConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_M9zl4PISEeucMc4MYfbNmw" name="Test" dataManager="_S8yrcPHTEeucMc4MYfbNmw">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_M9zl4fISEeucMc4MYfbNmw" name="DimDates" id="_MWV9QPISEeucMc4MYfbNmw" label="DimDates">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl4vISEeucMc4MYfbNmw" name="_id" label="_id" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl4_ISEeucMc4MYfbNmw" name="DATEID" label="DATEID" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl5PISEeucMc4MYfbNmw" name="FULLDATELABEL" label="FULLDATELABEL" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl5fISEeucMc4MYfbNmw" name="CALENDARYEAR" label="CALENDARYEAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl5vISEeucMc4MYfbNmw" name="CALENDARQUARTER" label="CALENDARQUARTER" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl5_ISEeucMc4MYfbNmw" name="CALENDARMONTH" label="CALENDARMONTH" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl6PISEeucMc4MYfbNmw" name="CALENDARMONTHNAME" label="CALENDARMONTHNAME" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl6fISEeucMc4MYfbNmw" name="CALENDARDAYOFWEEK" label="CALENDARDAYOFWEEK" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl6vISEeucMc4MYfbNmw" name="WEEKDAYNAME" label="WEEKDAYNAME" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl6_ISEeucMc4MYfbNmw" name="EUROPESEASON" label="EUROPESEASON" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl7PISEeucMc4MYfbNmw" name="NORTHAMERICASEASON" label="NORTHAMERICASEASON" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl7fISEeucMc4MYfbNmw" name="ASIASEASON" label="ASIASEASON" talendType="id_String"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_M9zl7vISEeucMc4MYfbNmw" name="DimProducts" id="_Mcr10PISEeucMc4MYfbNmw" label="DimProducts">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl7_ISEeucMc4MYfbNmw" name="_id" label="_id" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl8PISEeucMc4MYfbNmw" name="PRODUCTID" label="PRODUCTID" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl8fISEeucMc4MYfbNmw" name="PRODUCTNAME" label="PRODUCTNAME" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl8vISEeucMc4MYfbNmw" name="PRODUCTDESCRIPTION" label="PRODUCTDESCRIPTION" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl8_ISEeucMc4MYfbNmw" name="PRODUCTCATEGORYNAME" label="PRODUCTCATEGORYNAME" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl9PISEeucMc4MYfbNmw" name="PRODUCTSUBCATEGORYNAME" label="PRODUCTSUBCATEGORYNAME" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl9fISEeucMc4MYfbNmw" name="MANUFACTURER" label="MANUFACTURER" talendType="id_String"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_M9zl9vISEeucMc4MYfbNmw" name="DimStores" id="_MjWegPISEeucMc4MYfbNmw" label="DimStores">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl9_ISEeucMc4MYfbNmw" name="_id" label="_id" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl-PISEeucMc4MYfbNmw" name="STOREID" label="STOREID" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl-fISEeucMc4MYfbNmw" name="STORENAME" label="STORENAME" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl-vISEeucMc4MYfbNmw" name="CITYNAME" label="CITYNAME" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl-_ISEeucMc4MYfbNmw" name="STATEPROVINCENAME" label="STATEPROVINCENAME" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl_PISEeucMc4MYfbNmw" name="REGIONCOUNTRYNAME" label="REGIONCOUNTRYNAME" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl_fISEeucMc4MYfbNmw" name="STOREMANAGER" label="STOREMANAGER" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zl_vISEeucMc4MYfbNmw" name="STORETYPE" label="STORETYPE" talendType="id_String"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_M9zl__ISEeucMc4MYfbNmw" name="FactStore" id="_MnJZYPISEeucMc4MYfbNmw" label="FactStore">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zmAPISEeucMc4MYfbNmw" name="_id" label="_id" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zmAfISEeucMc4MYfbNmw" name="DateID" label="DateID" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zmAvISEeucMc4MYfbNmw" name="StoreID" label="StoreID" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zmA_ISEeucMc4MYfbNmw" name="ProductID" label="ProductID" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zmBPISEeucMc4MYfbNmw" name="OnHandQty" label="OnHandQty" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zmBfISEeucMc4MYfbNmw" name="OnOrderQty" label="OnOrderQty" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zmBvISEeucMc4MYfbNmw" name="DaysInStock" label="DaysInStock" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zmB_ISEeucMc4MYfbNmw" name="MinDayInStock" label="MinDayInStock" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M9zmCPISEeucMc4MYfbNmw" name="MaxDayInStock" label="MaxDayInStock" talendType="id_Integer"/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+</xmi:XMI>
